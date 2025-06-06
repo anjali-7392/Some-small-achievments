@@ -15,7 +15,7 @@ otpvalidate.onclick = ()=>{
         otpmsg.style.fontWeight = "bold";
         otpmsg.style.display = "block";
     }else{
-         otpmsg.innerHTML = "OTP not Valid";
+         otpmsg.innerHTML = "OTP invalid";
         otpmsg.style.color = "red";
         otpmsg.style.fontWeight = "bold";
         otpmsg.style.display = "block";
